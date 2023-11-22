@@ -5,6 +5,7 @@ export class PersonController {
   public create(): any {
     return { data: 'Creat !!! ' };
   }
+
   @Get(':id')
   public getOne(): any {
     return { data: 'Get one !!! ' };
