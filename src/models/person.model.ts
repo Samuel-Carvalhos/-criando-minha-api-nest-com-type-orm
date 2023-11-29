@@ -1,11 +1,11 @@
 import { Entity, Column, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
-exports class PersonModel {
+export class PersonModel {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @Column({ lenght: 120 })
+    @Column({ length: 120 })
     name: string;
 
     @Column('int')
